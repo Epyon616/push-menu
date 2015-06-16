@@ -1,0 +1,24 @@
+.menu-button {
+  width: 120px;
+  height: 40px;
+  border: 3px solid grey;
+  background: transparent;
+  font-size: 15px;
+  margin: 20px;
+  float: right;
+}
+.menu-button:focus {
+  outline: 0;
+}
+.push-menu {
+  width: 200px;
+  height: 100%;
+  background: grey;
+  right: -200px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+}
+.open {
+  right: 0;
+}
